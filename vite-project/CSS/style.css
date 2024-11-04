@@ -7,10 +7,13 @@ html, body{
 }
 
 :root{
-    --primary: rbg;
+    --primary: rgb(148, 119, 119);
 
 
 }
 body{
     background-color: var(--primary);
+}
+h1{
+    text-align: center;
 }
