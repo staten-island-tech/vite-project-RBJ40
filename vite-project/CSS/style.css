@@ -8,12 +8,20 @@ html, body{
 
 :root{
     --primary: rgb(148, 119, 119);
-
-
+    
 }
 body{
     background-color: var(--primary);
 }
 h1{
     text-align: center;
+}
+.container{
+
+}
+#darkbutton{
+    box-shadow: solid 5px gray;
+}
+#lightbutton{
+    box-shadow: solid 5px powderblue;
 }
