@@ -25,3 +25,6 @@ h1{
 #lightbutton{
     box-shadow: solid 5px powderblue;
 }
+img{
+    box-shadow: solid 3px silver;
+}
