@@ -2,5 +2,16 @@
   "dependencies": {
     "node": "^23.1.0",
     "v18": "^1.0.2"
-  }
+  },
+  "name": "vite-project-rbj40",
+  "description": "[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=16806937)\r install node 18 (npm i)\r npm create vite@latest\r ctrl c yes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
