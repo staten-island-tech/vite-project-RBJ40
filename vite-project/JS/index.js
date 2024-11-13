@@ -1,13 +1,4 @@
-const DOMSelectors = {
-  header: document.querySelector("h1"),
-  description: document.querySelector(".card-desc"),
-  button: document.querySelectorAll("button"),
-  form: document.querySelectorAll(".form"),
-  container: document.querySelectorAll(".container"),
-  card: document.querySelector(".card"),
-};
-document.querySelector("lightbutton").addEventListener("click", function () {});
-const games = [
+export const games = [
   { name: "Tears of the Kingdom", price: "$60", category: "Adventure" },
   { name: "Street Fighter 6", price: "$60", category: "Action" },
   { name: "Breath of the Wild", price: "$50", category: "Adventure" },
@@ -24,10 +15,5 @@ const games = [
   { name: "Wii Sports", price: "$30", category: "Action" },
   { name: "Skyward Sword", price: "$50", category: "Adventure" },
 ];
-games.forEach((game) => console.log(game));
-const adventureGame = games.filter((games) => games.category == "Adventure");
-adventureGame.forEach((adventureGame) => console.log(adventureGame));
-const actionGame = games.filter((games) => games.category.includes("Action"));
-actionGame.forEach((actionGame) => console.log(actionGame));
 
 createCards(games);
