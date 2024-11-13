@@ -26,6 +26,12 @@ h1{
 #lightbutton{
     box-shadow: solid 5px powderblue;
 }
+#adv{
+    box-shadow: solid 5px rgb(147, 125, 125);
+}
+#act{
+    box-shadow: solid 5px rgb(137, 69, 69);
+}
 img{
     box-shadow: solid 3px silver;
 }
