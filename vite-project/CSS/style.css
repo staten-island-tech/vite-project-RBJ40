@@ -17,20 +17,22 @@ body{
 h1{
     text-align: center;
 }
-.container{
 
-}
 #darkbutton{
     box-shadow: solid 5px gray;
+    color: pink;
 }
 #lightbutton{
     box-shadow: solid 5px powderblue;
+    color: yellowgreen;
 }
 #adv{
     box-shadow: solid 5px rgb(147, 125, 125);
+    color: red;
 }
 #act{
     box-shadow: solid 5px rgb(137, 69, 69);
+    color: green;
 }
 img{
     box-shadow: solid 3px silver;
