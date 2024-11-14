@@ -5,34 +5,32 @@ html, body{
     box-sizing:border-box;
     font-size: 10px;
     display: flex;
-}
-
-:root{
-    --primary: rgb(148, 119, 119);
-    
-}
-body{
-    background-color: var(--primary);
+    background-color: aquamarine;
 }
 h1{
     text-align: center;
 }
-
+.card {
+    width: 30rem;
+    height: 30rem;
+    border-radius: 1.5rem;
+    border-width: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}  
 #darkbutton{
     box-shadow: solid 5px gray;
-    color: pink;
 }
 #lightbutton{
     box-shadow: solid 5px powderblue;
-    color: yellowgreen;
 }
 #adv{
     box-shadow: solid 5px rgb(147, 125, 125);
-    color: red;
 }
 #act{
     box-shadow: solid 5px rgb(137, 69, 69);
-    color: green;
 }
 img{
     box-shadow: solid 3px silver;
