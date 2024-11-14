@@ -16,4 +16,4 @@ export const games = [
   { name: "Skyward Sword", price: "$50", category: "Adventure" },
 ];
 
-createCards(games);
+
