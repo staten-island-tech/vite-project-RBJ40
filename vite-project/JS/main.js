@@ -6,7 +6,37 @@ const DOMSelectors = {
   button: document.querySelectorAll("button"),
   container: document.querySelectorAll(".container"),
   card: document.querySelector(".card"),
+  theme: document.querySelector("#theme"),
 };
+theme.addEventListener("click", function () {
+  if (document.body.classList.contains("warm")) {
+    document.body.classList.add("cool");
+    document.body.classList.remove("warm");
+  } else if (document.body.classList.contains("cool")) {
+    document.body.classList.add("warm");
+    document.body.classList.remove("cool");
+  }
+});
+function createCards(games) {
+  DOMSelectors.container.innerHTML = "";
+  games.forEach((game) =>
+    DOMSelectors.container.insertAdjacentHTML(
+      "beforeend",
+      `<div class="card">
+        <h2 class="card-title">${game.title}</h2>
+        <h3 class="card-desc">${game.description}</h3>
+        <h4 class="card-price">$${game.price}</h4>
+        <img
+          class="card-img"
+          src="${game.imageUrl}"
+          alt="${game.altText}"
+        />
+      </div>`
+    )
+  );
+}
+createCards(games);
+
 games.forEach((game) => console.log(game));
 const adventureGame = games.filter((games) => games.category == "Adventure");
 adventureGame.forEach((adventureGame) => console.log(adventureGame));
