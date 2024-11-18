@@ -4,4 +4,12 @@
 }
 body{
     background-color: var(--primary);
+    display: flex;
+    flex-wrap: wrap;
+}
+button{
+    background-color: #0077cc;
+}
+img{
+    border: #d8a45a;
 }
